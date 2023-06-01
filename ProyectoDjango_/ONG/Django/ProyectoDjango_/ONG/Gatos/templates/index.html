@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+    <title>Gatos</title>
+</head>
+<body>
+    <h1>Gatitos tiednos</h1>
+    <p class="parrafo">Lorem ipsum dolor sit amet, consectet<ur adipisicing elit. Eos autem qui aut ab eligendi quasi, deserunt libero sint nostrum commodi totam dolores atque pariatur enim placeat, accusamus laboriosam, molestias aperiam.</p>
+    <p>Nombre: {{nombre}} {{apellido}}<br>Edad: {{edad}}<br>El profe enseño:</p>
+    <ol>
+        {% for n in materia %}
+        <li>{{x}}</li>
+        {% endfor %}    
+    </ol>
+    <img src="" alt="">
+</body>
+</html>
